@@ -1,0 +1,59 @@
+body {
+  background: #ffe6eb;
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #ffffff;
+  padding: 32px 24px;
+  border-radius: 24px;
+  text-align: center;
+  width: 340px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+  font-weight: 500;
+  line-height: 1.5;
+  color: #333;
+}
+
+.buttons {
+  margin-top: 24px;
+}
+
+button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#yes {
+  background: #ff4d6d;
+  color: #fff;
+}
+
+#no {
+  background: #e0e0e0;
+  margin-left: 12px;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ff4d6d;
+}
+
+.footer {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #999;
+}
