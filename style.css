@@ -1,11 +1,22 @@
 body {
-  background: #ffe6eb;
   font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
+
+  /* Background image */
+  background: 
+    linear-gradient(
+      rgba(255, 230, 235, 0.85),
+      rgba(255, 230, 235, 0.85)
+    ),
+    url("her.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card {
